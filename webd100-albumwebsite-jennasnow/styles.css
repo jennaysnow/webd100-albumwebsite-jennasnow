@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0C1B2A;
+    color: #E6EBE9;
+}
+
+.centred-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+header {
+    height: 150px;
+    background-color: #0F273A;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #8CA9B5;
+    margin: 0 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.hero {
+    min-height: 350px;
+    background-color: #4F6D69;
+    color: #E6EBE9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cta {
+    display: inline-block;
+    padding: 8px 18px;
+    border: 2px solid #E6EBE9;
+    background: transparent;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #E6EBE9;
+    text-decoration: none;
+}
+
+
+.intro {
+    background-color: #112533;
+    padding: 40px 0;
+}
+
+.intro h3,
+.intro p {
+    max-width: 700px;
+    margin: 0 auto 12px auto;
+}
+
+.cover {
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 16px auto 0 auto;
+}
+
+
+.single {
+    background-color: #112533;
+    padding: 40px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.single img {
+    width: 300px;
+}
+
+.song-content {
+    padding: 10px;
+}
+
+.song-grid {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.card {
+    background-color: #162F3D;
+    padding: 12px;
+}
+
+/* TRACKLIST */
+.album-info {
+    padding: 40px 0;
+}
+
+.tracks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.tracks li {
+    background-color: #162F3D;
+    padding: 9px;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 40px 0;
+}
+
+.product-card {
+    background-color: #1A3647;
+    padding: 12px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card button {
+    background-color: #335C54;
+    color: #E6EBE9;
+    border: none;
+    padding: 6px 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+footer {
+    background-color: #0F273A;
+    color: #8CA9B5;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0.9rem;
+}
